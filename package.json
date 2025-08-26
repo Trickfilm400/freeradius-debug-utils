@@ -1,0 +1,43 @@
+{
+    "name": "freeradius-debug-utils",
+    "version": "0.0.0-dev-01",
+    "description": "Tools helping to setup a radius server and in case of errors.",
+    "main": "./dist/index.js",
+    "scripts": {
+        "start": "node .",
+        "build": "tsc",
+        "dev": "ts-node-dev --respawn --no-deps --rs --cls ./src/index.ts",
+        "eslint": "eslint src/**/*.ts"
+    },
+    "keywords": [
+        "freeradius-debug-utils",
+        "created-with-typescript-new-project-scaffolding",
+        "template",
+        "typescript",
+        "node",
+        "nodejs"
+    ],
+    "author": {
+        "email": "trickfilm400@gmail.com",
+        "name": "Trickfilm400"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@trickfilm400/eslint-shared-config": "^0.0.1",
+        "@types/cors": "^2.8.19",
+        "@types/dockerode": "^3.3.43",
+        "@types/express": "^5.0.3",
+        "@types/node": "24.3.0",
+        "prettier": "^3.6.2",
+        "ts-node": "10.9.2",
+        "ts-node-dev": "2.0.0",
+        "typescript": "5.9.2"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dockerode": "^4.0.7",
+        "express": "^5.1.0",
+        "socket.io": "^4.8.1",
+        "winston": "3.17.0"
+    }
+}
